@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Langar&display=swap');
+.main-container {
+    width: 100%;
+    min-height: 120vh;
+    /* min-height: 150px; */
+    background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #6de3e6 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+.inner-container-join {
+    height: 600px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 17px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.app-name {
+    font-family: 'Langar', cursive;
+    color: #00333b;
+    font-size: 3rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.app-label {
+    font-family: "Baloo 2", cursive;
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.h-line {
+    width: 90%;
+    border-bottom: 3px solid #fff;
+}
+
+
+/*  */
+
+.joining-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-btn {
+    margin-top: 5px;
+}
+
+.joining-form input {
+    margin: 8px 0px;
+    background-color: transparent;
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.1rem;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 10px;
+    width: 36%;
+    outline: none;
+    text-align: center;
+}
+
+.joining-form input::placeholder {
+    color: rgba(245, 245, 245, 0.699);
+}
+
+.joining-form input:focus {
+    border-bottom: 2px solid rgb(20, 121, 128);
+}
+
+.send-btn {
+    background-color: #28856f;
+    border: none;
+    font-size: 1.1rem;
+    color: #fff;
+    padding: 1px 13px;
+    margin: 0 6px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Baloo 2", cursive;
+    outline: none;
+}
+
+h2 {
+    margin: 0;
+    padding: 0 0 30px;
+    color: #efed40;
+    text-align: center;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+}
+
+input {
+    margin-left: 10%;
+}
